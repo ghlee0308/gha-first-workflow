@@ -1,5 +1,7 @@
 name: Our First Workflow
-on: [push, pull_request]
+on: push
+ branches:
+   - main
 jobs: 
   echos: 
     runs-on: ubuntu-latest
